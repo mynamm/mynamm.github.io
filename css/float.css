@@ -1,0 +1,39 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 36px;
+}
+
+.header {
+  /* 부모 태그의 100% */
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+.left-menu {
+  /* 부모 태그의 30% */
+  width: 20%;
+  height: 400px;
+  background-color: cornflowerblue;
+  /* 이 요소를 붕 띄워서 왼쪽으로 정렬 */
+  float: left;
+}
+
+.right-menu {
+  width: 80%;
+  height: 400px;
+  background-color: coral;
+  float: right;
+}
+
+.footer {
+  clear: both;
+  width: 100%;
+  height: 150px;
+  background-color: lightgreen;
+  /* border: 5px solid red;
+  padding: 30px; */
+  /* clear: both; */
+}
+
