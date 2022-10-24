@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="이 페이지는 a 태그를 공부하는 페이지">
+    <meta name="keywords" content="HTML, CSS, ">
+    <meta name="author" content="YEJIN LEE">
+    <title>a 실습예제1</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- 이미지를 눌렀을 때 구글로 이동 -->
+      <div class="google box">
+        <h1>구글로 이동하기</h1>
+        <a href="https://google.com/" target="_blank">
+          <img src="./images/google.png" alt="google">
+        </a>
+        <!-- 새 창에서 링크 오픈 -->
+        <p>Google 이미지를 눌렀을 때 <b>구글로 이동</b></p>
+      </div>
+      <!-- 여기를 눌렀을 때 네이버로 이동 -->
+      <div class="naver box">
+        <h1>네이버로 이동하기</h1>
+        <img src="./images/naver.jpeg" alt="naver">
+        <p>
+          <!-- 기본값이 _self여서 target을 따로 작성하지 않을 시 현재창에서 열림 -->
+          <a href="https://www.naver.com/" target="_self"><u>여기</u></a>
+          를 눌렀을 때 네이버로 이동
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
